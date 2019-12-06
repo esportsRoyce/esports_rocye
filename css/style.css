@@ -1,0 +1,192 @@
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/* main elements */
+@font-face {font-family: 'TrajanPro-Regular'; src: url('../fonts/TrajanPro-Regular.otf');}
+@font-face {font-family: 'Futura-Light'; src: url('../fonts/Futura\ Light\ BT.ttf');}
+@font-face {font-family: 'Futura-Medium'; src: url('../fonts/Futura\ Medium\ BT.ttf');}
+
+body{
+    font-family: 'Futura-Light';
+
+}
+
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+/* utility class */
+/* color */
+.dark-color{color: #F4A211;}
+.light-color{color: #fff;}
+.red-color{color: rgb(236, 62, 62);}
+.secondary-color{color: rgb(245, 245, 245);}
+.blue-color{color :rgb(56, 71, 209);}
+/* background color */
+.light-bg{background: #fff;}
+.black-bg{background: #333;}
+.primary-bg{background: #F4A211;}
+.blue-bg{background: rgb(56, 71, 209);}
+/* font */
+.small-font{font-size: 16px;}
+.medium-font{font-size: 20px;}
+.large-font{font-size: 28px;}
+.largest-font{font-size: 42px;}
+/* border */
+.light-border{border: 1px solid rgb(224, 221, 221);}
+.primary-border{border: 1px solid #F4A211;}
+.dark-border{border: 1px solid #333;}
+/* padding */
+
+.py-1{padding: 0.5rem;}
+.py-2{padding: 0.2rem 0rem 0.5rem 0rem;}
+.py-3{padding: 0.5rem 1rem 1rem 0.2rem;}
+.py-4{padding: 1rem;}
+.py-5{padding: 0.5rem 0rem 0.5rem 0.5rem;}
+/* margin */
+.mg-1{margin: 1rem;}
+.mg-2{margin: 0.75rem;}
+.mg-3{margin: 1rem 1rem 0.3rem 1rem;}
+/* nav-top */
+#nav-top{
+    height: 6vh;
+    background: #333;
+    display: flex;
+    color: rgb(192, 192, 192);
+    justify-content:flex-end;
+    align-items: center;
+    padding: 0.2em 100px;
+}
+
+/* header */
+#header{
+    display: flex;
+    height: 15vh;
+    justify-content: space-around;
+    align-items: center;
+    max-width: auto;
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    background: rgb(247, 247, 247);
+}
+#header #header-logo{
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+}
+#header #header-logo h4 a{
+    color: rgb(56, 71, 209);
+    font-family: 'Futura-Medium';
+}
+
+#header #header-form{
+    color: rgb(160, 160, 160);
+}
+
+#header #header-form .forms li a{
+    color: rgb(41, 40, 40);
+    padding: 1rem;
+}
+
+#header .nav-bar li a{
+    color: rgb(139, 139, 139);
+    padding: 1rem;
+    font-size: 12px;
+}
+#header .nav-bar li a:hover , #header .nav-bar li a.current{
+    color: rgb(8, 8, 8);
+    background: rgb(253, 253, 253);
+    border-radius: 6px;
+
+}
+
+/* Showcase */
+#showcase{
+    height: 90vh;
+    background: #333 url('../img/food-tablePS.png') no-repeat;
+    background-size: cover;
+    max-width: 1160px;
+    margin: 0px auto 0px auto;
+    display: flex;
+    align-items: flex-end;
+
+}
+#showcase #container{
+    margin: 0px 40px;
+    padding: 0px 40px;
+    display: flex;
+
+}
+#showcase #container .box{
+    display: flex;
+    flex-direction: column;
+    background: rgba(0, 0, 0, 0.5);
+    height: 200px;
+    border-radius: 6px;
+    margin: 0rem 0.2rem;
+    flex: 1;
+    color: #fff;
+    justify-content: center;
+    padding: 1rem;
+}
+#showcase .box:nth-child(3){
+    display: flex;
+    flex: 1;
+}
+#showcase .box h4{
+    background: rgba(0, 0, 0,0.6);
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Futura-Medium';
+}
+#showcase .box p{
+    line-height: 1.2em;
+}
+
+/* best-seller */
+#best-seller{
+    margin: 90px 200px;
+    max-width: 1300px;
+    height: 55vh;
+    display: flex;
+}
+#best-seller .left-content{
+    flex: 1;
+    height: 100%;
+    background: url('../img/jelay-outdoor.jpg')no-repeat;
+    background-size: contain;
+
+}
+#best-seller .right-content{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 1rem;
+}
+#best-seller .right-content h4{
+    padding: 0.55em;
+}
+
+/* footer */
+#footer{
+    height: 10vh;
+    background: #333;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    padding: 0.3rem;
+    line-height: 1.7em;
+}
+#footer a{
+    color: #fff;
+    margin: 0.75rem;
+    padding: 0.5em;
+}
