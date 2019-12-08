@@ -11,7 +11,7 @@
 
 body{
     font-family: 'Futura-Light';
-    background: rgb(252, 252, 252);
+ background: rgb(252, 252, 252); 
 }
 
 li{
@@ -27,7 +27,7 @@ a{
 .light-color{color: #fff;}
 .red-color{color: rgb(236, 62, 62);}
 .secondary-color{color: rgb(245, 245, 245);}
-.blue-color{color :rgb(56, 71, 209);}
+.blue-color{color :rgb(56, 82, 231);}
 /* background color */
 .light-bg{background: #fff;}
 .black-bg{background: #333;}
@@ -63,7 +63,7 @@ a{
 
 .navigation-header{
     height: 6vh;
-    background: rgb(247, 247, 247);
+    background: #beebe9;
     display: flex;
     justify-content:flex-end;
     align-items: center;
@@ -79,7 +79,7 @@ a{
 }
 .nav-bar{
     height: 15vh;
-    background: #fff;
+    background: #fffdf9;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -135,13 +135,13 @@ a{
     margin-top: 20px;
 }
 .showcase-content .showcase-main ul li a{
-    color: rgb(110, 109, 109);
-    background: rgb(233, 233, 233);
+    background: rgb(56, 82, 231);
+    color: #fcfcfc;
     padding: 1rem;
 }
 .showcase-content .showcase-main ul li a:hover{
-    background: rgb(56, 82, 231);
-    color: #fcfcfc;
+    background: rgb(13, 31, 131);
+    color: #ffffff;
 }
 
 /* services */
@@ -201,7 +201,7 @@ a{
     display: flex;
 }
 .location-content .left-content{
-    background: rgba(17, 243, 28, 0.5);
+    background: #ffe3ed;
     line-height: 1.7em;
     padding: 1rem;
     flex: 1;

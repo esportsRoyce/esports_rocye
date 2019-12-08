@@ -26,7 +26,7 @@
 
 #products-offered{
     max-width: 1100px;
-    height: 180vh;
+    height: 320vh;
     margin: 30px auto;
     padding: 30px auto;
     display: flex;
@@ -80,6 +80,24 @@
 }
 .item-6{
     background: url('../img/yakisoba.jpg') no-repeat;
+}
+.item-7{
+    background: url('../img/koreanramen-special.jpg') no-repeat center;
+}
+.item-8{
+    background: url('../img/padd-thai.jpg') no-repeat center;
+}
+.item-9{
+    background: url('../img/bibimbap-1.jpg') no-repeat center;
+}
+.item-10{
+    background: url('../img/photo-4.jpg') no-repeat center;
+}
+.item-11{
+    background: url('../img/spicy-curry.jpg') no-repeat center;
+}
+.item-12{
+    background: url('../img/bistek.jpg')no-repeat center;
 }
 
 .description{
