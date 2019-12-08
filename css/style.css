@@ -194,6 +194,23 @@ a{
     height: 20vh;
 }
 
+/* Location */
+.location-content{
+    margin: 40px 1rem;
+    height: 75vh;
+    display: flex;
+}
+.location-content .left-content{
+    background: rgba(17, 243, 28, 0.5);
+    line-height: 1.7em;
+    padding: 1rem;
+    flex: 1;
+}
+.location-content .location-map{
+    flex: 1;
+
+}
+
 /* footer */
 #footer{
     height: 10vh;
