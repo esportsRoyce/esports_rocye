@@ -113,7 +113,7 @@
     height: 50%;
     visibility: hidden;
     cursor: pointer;
-    transition: width 2s, height 2s, transform 3s;
+    transition: width 1s, height 1s, transform 1s;
     text-align: center;
 }
 
