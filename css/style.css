@@ -211,6 +211,7 @@ a{
 .location-content .left-content{
     background: #ffe3ed;
     line-height: 1.7em;
+    height: 450px;
     padding: 1rem;
     flex: 1;
 }
