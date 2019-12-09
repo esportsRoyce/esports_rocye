@@ -111,6 +111,7 @@ a{
 }
 .nav-bar .navigation li a:hover i{
     visibility: visible;
+
 }
 
 /* Showcase */
@@ -149,6 +150,7 @@ a{
     background: rgb(13, 31, 131);
     color: #ffffff;
 }
+
 
 /* services */
 .services{
