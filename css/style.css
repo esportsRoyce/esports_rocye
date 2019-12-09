@@ -106,6 +106,12 @@ a{
     color: rgb(22, 22, 22);
     background: rgb(252, 252, 252);
 }
+.nav-bar .navigation li a i{
+    visibility: hidden;
+}
+.nav-bar .navigation li a:hover i{
+    visibility: visible;
+}
 
 /* Showcase */
 .showcase-content{
