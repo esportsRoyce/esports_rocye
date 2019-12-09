@@ -43,8 +43,8 @@
 #products-offered #products-left .box{
     margin: 1rem;
     display: flex;
-    align-items: flex-end;
-    padding: 1rem 0rem;
+    align-items: center;
+    justify-content: center;
     color: #fff;
 
 }
@@ -59,7 +59,8 @@
     margin: 1rem;
     display: flex;
     align-items: flex-end;
-    padding: 1rem 0rem;
+    justify-content: center;
+    align-items: center;
     color: #fff;
 }
 
@@ -101,17 +102,55 @@
 }
 
 .description{
-    color: rgb(199, 198, 198);
-    background: rgba(0, 0, 0, 0.6);
-    padding: 1rem;
-    margin: 15px 0px;
-}
-.description:hover{
     color: rgb(255, 255, 255);
     background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem;
+    width: 100%;
+    height: 100%;
+    visibility: hidden;
     cursor: pointer;
+
 }
+.item-1:hover .description{
+    visibility: visible;
+}
+.item-2:hover .description{
+    visibility: visible;
+}
+.item-3:hover .description{
+    visibility: visible;
+}
+.item-4:hover .description{
+    visibility: visible;
+}
+.item-5:hover .description{
+    visibility: visible;
+}
+.item-6:hover .description{
+    visibility: visible;
+}
+.item-7:hover .description{
+    visibility: visible;
+}
+.item-8:hover .description{
+    visibility: visible;
+}
+.item-9:hover .description{
+    visibility: visible;
+}
+.item-10:hover .description{
+    visibility: visible;
+}
+.item-11:hover .description{
+    visibility: visible;
+}
+.item-12:hover .description{
+    visibility: visible;
+}
+
 
 
 
