@@ -213,7 +213,7 @@ a{
 
 /* footer */
 #footer{
-    height: 10vh;
+    max-height: auto;
     background: #333;
     color: #fff;
     display: flex;

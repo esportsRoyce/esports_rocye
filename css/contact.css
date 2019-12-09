@@ -1,13 +1,12 @@
 .contact-us{
     height: 72vh;
-    background: #160f30;
-    color: #fff;
     margin: 0px auto;
     padding: 40px;
-    font-family: 'Futura-Medium';
     line-height: 1.7em;
 }
 
-.contact-us > h3{
-    font-family: 'Futura-Light';
+.contact-us a{
+    color: #333;
+    font-weight: 600;
+    text-decoration: underline;
 }
