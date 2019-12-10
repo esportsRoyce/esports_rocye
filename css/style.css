@@ -59,16 +59,6 @@ a{
 .container{
     margin: auto;
     max-width: auto;
-    overflow: auto;
-}
-
-.navigation-header{
-    height: 6vh;
-    background: #f8f8f8;
-    display: flex;
-    justify-content:flex-end;
-    align-items: center;
-    padding: 0.2em 100px;
 }
 
 /* header-nav */
@@ -115,6 +105,12 @@ a{
 }
 
 /* Showcase */
+#showcase{
+    width: auto;
+    height: auto;
+    margin: auto;
+}
+
 .showcase-content{
     height: 60vh;
     /* max-width: 850px; */
@@ -153,63 +149,83 @@ a{
 
 
 /* services */
+#m-services{
+    margin: 32px;
+    padding: 1rem;
+    height: 55vh;
+}
+#m-services h2{
+    padding: 10px 80px;
+}
 .services{
-    margin: 40px auto 60px auto;
-    max-width: 850px;
-    height: 40vh;
     display: flex;
+    justify-content: center;
+    line-height: 1.4em;
+    max-width: 1150px;
+    margin: 5px auto
 }
 .services .left-content{
-    background: url('../img/jelay-outdoor.jpg');
+    background: url('../img/jelay-outdoor.jpg') no-repeat;
     background-size: cover;
-    width: 50%;
-    height: 300px;
-    padding: 4rem;
-    border: 1px solid #333333;  
+    margin: 0px 0.5rem;
+    flex: 1;
 }
 .services .right-content{
-    margin: 0.1em;
-    padding: 0.75rem 1.7em 0.75rem 1.3em;
-    line-height: 1.3em;
+    flex: 1;
+    margin: 0px 0.5rem;
+    border: 1px solid rgb(151, 151, 151);
+    padding: 1rem;
+
+}
+/* Branches */
+#main-story{
+    height: 60vh;
+    width: auto;
+    margin: 10px auto;
 }
 
-
-
-/* Branches */
 .our-story{
-    margin: 20px auto 60px auto;
-    max-width: 850px;
-    height: 80vh;
     display: flex;
-    flex-direction: column;
+    margin: 32px auto;
+    height: 50vh;
+    max-width: 1150px;
     line-height: 1.6em;
-    background: rgb(238, 238, 238);
+    border: 1px solid rgb(247, 247, 247);
+
 }
 .our-story .about-jelays{
     padding: 1rem;
     margin: 1rem;
-    height: 20vh;
+    flex: 1;
+    border: 1px dotted #333;
 }
 .our-story .about-us{
     margin: 1rem;
     padding: 1rem;
-    height: 20vh;
-    background: #fff;
+    flex: 2;
+    background: rgb(255, 253, 248);
+    border: 1px dotted #333;
 }
 .our-story .how-itstarts{
     padding: 1rem;
     margin: 1rem;
-    height: 20vh;
+    flex: 1;
+    border: 1px dotted #333;
 }
 
 /* Location */
+#location{
+    height: 100vh;
+
+}
+
 .location-content{
-    margin: 40px 1rem;
-    height: 75vh;
     display: flex;
+    flex-direction: column;
+    max-width: 1125px ;
+    margin: 32px auto;
 }
 .location-content .left-content{
-    background: #ffe3ed;
     line-height: 1.7em;
     height: 450px;
     padding: 1rem;
@@ -222,16 +238,25 @@ a{
 
 /* footer */
 #footer{
-    max-height: auto;
+    height: auto;
     background: #333;
     color: #fff;
-    display: flex;
-    justify-content: center;
-    padding: 0.3rem;
+    padding: 0.75rem;
     line-height: 1.7em;
+    margin-top: 10px;
 }
-#footer a{
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.main-footer .top-footer{
+   margin-top: 32px;
+}
+.main-footer .top-footer a{
+    padding: 0.5rem;
+}
+.main-footer .top-footer a i{
     color: #fff;
-    margin: 0.75rem;
-    padding: 0.5em;
 }

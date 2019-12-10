@@ -1,0 +1,36 @@
+@media(min-width: 376px) and (max-width: 575px){
+    #header-nav{
+        height: auto;
+        position: relative;
+    }
+    .nav-bar{
+        margin: auto;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+    }
+    .nav-bar .logo{
+        font-size: 22px;
+    }
+    .nav-bar .navigation li a{
+        padding: 0.75rem;
+    }
+    .nav-bar form input , .nav-bar form i{
+        display: none;
+    }
+    .nav-bar .forms{
+        padding: 1rem;
+        margin: 0.35em;
+    }
+
+    /* showcase */
+    .showcase-content .showcase-main{
+        padding: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    /* services */
+
+}
