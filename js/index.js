@@ -1,7 +1,7 @@
 let name = 'Owner: ROYCE S. RODRIGUEZ';
 console.log(name);
 
-$('.nav-bar a, .btn').on('click', function(event){
+$('.nav-bar a, .showcase-main a').on('click', function(event){
     if(this.hash !==''){
         event.preventDefault();
 
@@ -11,7 +11,7 @@ $('.nav-bar a, .btn').on('click', function(event){
             {
                 scrollTop: $(hash).offset().top - 100
             },
-            800
+            600
         );
     }
 });
