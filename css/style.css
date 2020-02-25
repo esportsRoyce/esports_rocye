@@ -17,9 +17,10 @@
     --red-color: #9d0b0b;
 }
 /* utility class */
-.sp-1{color: var(--yellow-color)}
-.sp-2{color: var(--red-color)}
 
+.sp-1{color: var(--yellow-color);}
+.sp-2{color: var(--red-color);}
+.py-1{padding-top: 16px;}
 /* Font-size */
 .fs-small{font-size: 12px;}
 /* main selectors */
@@ -208,6 +209,15 @@ body::after{
     justify-content: center;
     align-items: center;
 }
+.best-seller{
+    position: absolute;
+    left: 0;
+    bottom: 150px;
+    padding: 1rem;
+    border-radius: 0px 12px 12px 0px;
+    color: var(--yellow-color);
+    background: rgba(0,0,0,0.6);
+}
 .heading-4{
     padding: 0.3em 2rem;
     font-size: 12px;
@@ -226,8 +236,9 @@ body::after{
     height: 33.33%;
 }
 .a-btn{
-    background: var(--yellow-color);
+    color: var(--red-color);
     padding: 0.75em;
+    border: 1px solid rgb(75, 75, 75);
 }
 .bottom-article > div{
     margin: 0.75em;
@@ -251,14 +262,68 @@ body::after{
     margin: 0 auto;
     background: #fff;
     height: 100%;
+    display: flex;
+    margin: auto;
 }
+.global-container .left-showcase, .global-container .right-showcase{
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+}
+.jelays-cafe{
+    height: 10%;
+    width: 100%;
+    padding: 1rem;
+}
+.image-showcase{
+    width: 100%;
+    height: 70%;
+}
+.image-size{
+    width: 100%;
+    height: 100%;
+}
+.image-alt{
+    height: 20%;
+    width: 100%;
+}
+.right-showcase{
+    padding: 2rem;
+}
+.right-showcase .top-right{
+    padding: 2rem;
+}
+.right-showcase .top-right ul{
+    padding-left: 1rem;
+    padding-top: 1rem;
+}
+.right-showcase .top-right ul li{
+    list-style: circle;
+
+}
+
 
 
 /* footer */
 .footer{
-    height: 14vh;
+    height: 20vh;
     width: 100%;
-    background: rgb(238, 238, 238);
+    background: #222;
     z-index: 2;
     position: relative;
+}
+.global-footer{
+    max-width: 950px;
+    margin: 0 auto;
+    background: #222;
+    height: 100%; 
+    display: flex;
+    color: #fff;
+}
+.box{
+    display: flex;
+    margin: auto;
+}
+.box ul li a{
+    color: #ddd;
 }
