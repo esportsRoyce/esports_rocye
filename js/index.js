@@ -15,3 +15,11 @@ $('.nav-bar a, .showcase-main a').on('click', function(event){
         );
     }
 });
+
+var products = document.getElementById("m-services");
+products.style.background = "#555";
+
+function buttonFunction(){
+    var button = document.getElementById("btn").innerHTML = "HAHAHA";
+    alert("You are entering restricted area. please leave the page");
+}
