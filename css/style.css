@@ -123,11 +123,11 @@ body::after{
 .search-field{
     width: 195px;
     height: 25px;
-    padding: 1rem;
+    padding: 0.35em;
 }
 .btn{
     width: 30px;
-    height: 35px;
+    height: 25px;
 }
 .right-header .account ul{
     display: flex;
@@ -209,7 +209,7 @@ body::after{
     justify-content: center;
     align-items: center;
 }
-.best-seller{
+.best-seller , .best{
     position: absolute;
     left: 0;
     bottom: 150px;
@@ -218,6 +218,7 @@ body::after{
     color: var(--yellow-color);
     background: rgba(0,0,0,0.6);
 }
+
 .heading-4{
     padding: 0.3em 2rem;
     font-size: 12px;
@@ -306,7 +307,7 @@ body::after{
 
 /* footer */
 .footer{
-    height: 20vh;
+    height: 13vh;
     width: 100%;
     background: #222;
     z-index: 2;
@@ -326,4 +327,5 @@ body::after{
 }
 .box ul li a{
     color: #ddd;
+    font-size: 14px;
 }

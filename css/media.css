@@ -1,0 +1,52 @@
+.header{
+    height: 14vh;
+    font-size: 14px;
+}
+.logo{
+    display: block;
+}
+.left-header .logo-description{
+    display: block;
+    text-align: left;
+    padding-left: 22px;
+}
+.left-header .nav{
+    padding: 0 0.75em;
+}
+.left-header{
+    display: block;
+    max-width: 550px;
+    text-align: center;
+    margin: 0 auto;
+}
+.left-header .nav .navigation li a{
+    font-size: 11px;
+}
+.logo-description h4{
+    visibility: hidden;
+}
+.navigation ul li a{
+    font-size: 12px;
+}
+.search-products{
+    display: block;
+}
+.search-field{
+    width: 120px;
+    height: 20px;
+}
+.btn{
+    height: 20px;
+}
+/* right-header */
+.right-header{
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 1.2rem;
+}
+.account{
+    padding-bottom: 0.35em;
+}
+.right-header .account ul li a{
+    font-size: 11px;
+}

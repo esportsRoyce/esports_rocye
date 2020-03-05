@@ -1,6 +1,6 @@
 .section-products{
     width: 100%;
-    height: 100vh;
+    height: 200vh;
     position: relative;
     z-index: 2;
 }
@@ -13,7 +13,7 @@
     height: 100%;
 }
 .products-header{
-    margin: 16px 0px;
+    padding: 1rem;
 }
 .products-box{
     width: 100%;
@@ -31,6 +31,7 @@
 .products-box .p-box-inside .p-box-inside-top{
     width: 100%;
     height: 85%;
+    position: relative;
 }
 .products-box .p-box-inside .p-box-inside-bottom{
     width: 100%;
@@ -41,5 +42,24 @@
 }
 .box-inside-description{
 
+    font-size: 16px;
+}
+.soup{
+    padding: 1rem;
+
+}
+.soup h3:hover{
+    border-bottom: 1px solid #333;
+    display: inline;
+    cursor: pointer;
+   
+   
+}
+.best-seller{
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    padding: 1rem;
+    background: rgba(0,0,0,0.6);
     font-size: 16px;
 }
